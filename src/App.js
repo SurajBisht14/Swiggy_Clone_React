@@ -113,11 +113,11 @@ function App() {
               <ItemsContainer4 />
             </filterContext.Provider>
           </main>
+            <ItemsContainer5/>
+            <ItemsContainer6/>
         </div>
       </div>
     </boolContext.Provider>
-    <ItemsContainer5/>
-    <ItemsContainer6/>
     </>
   );
 }

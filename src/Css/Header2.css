@@ -1,0 +1,126 @@
+.header2{
+    width: 80%;
+    height: 80px;
+    display: flex;
+}
+.header2Main{
+        display: flex;
+        height: 100%;
+        width: 100%;
+        align-items: center;
+        gap: 1%;
+}
+
+.header2Main div{
+    border-radius:20px;
+    border: 1px solid lightgray;
+    text-align: center;
+    padding: 9px 12px;
+    font-size: 13px;
+    color: rgba(2, 6, 12, 0.526);
+    font-weight: 600;
+    box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+    display: flex;
+    gap: 8px;
+    cursor: pointer;
+}
+header img{
+    width: 15px;
+}
+.header2Main button{
+    height: 60px;
+    width: 300px;
+    background-color:rgb(240, 240, 245);
+    border-radius: 15px;
+    border: 1px solid transparent;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6%;
+    color: rgba(2, 6, 12, 0.515);
+}
+.header2Main button:hover{
+    cursor: pointer;
+}
+.filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.filter span{
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(241, 87, 0);
+    display: none;
+}
+
+.sortBy{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 200px;
+    width: 150px;
+    background-color: white;
+     z-index: 5555555;
+     transform: translateY(40%);
+  }
+  .sortBy section{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .sortBy label {
+    color: rgb(126, 127, 128);
+    margin-left: 10px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  .sortBy input[type="radio"] {
+    width: 18px;
+    height: 18px;
+    border: 1px solid rgb(115, 117, 121);
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    appearance: none;
+  }
+  
+  .sortBy input[type="radio"]:checked {
+    border: 1px solid rgb(241, 87, 0);
+  }
+  
+  .sortBy input[type="radio"]:checked::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 11px;
+    height: 11px;
+    background-color: rgb(241, 87, 0);
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .sortBy footer{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid lightgray;
+    width: 100%;
+  }
+  .sortBy footer button{
+    border: none;
+    color: rgb(241, 87, 0);
+    font-size: 13px;
+    padding-top: 5px;
+    font-weight: 800;
+    border-radius: 2px;
+    cursor: pointer;
+    height: 25px;
+    width: 50px;
+    background-color: transparent ;
+  }

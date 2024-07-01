@@ -1,0 +1,50 @@
+  <div className='itemsContainer3SortBox' ref={itemsContainer3SortBox}>
+              <div className='header3Main'>
+                <div className='filter' onClick={()=>{setFilterPage(true)}}>
+                  Filter
+                  <img src={png} alt='filterImg'/>
+                </div>
+                {/* <div className='SortBy' onClick={()=>{}}>
+                  Sort By
+                  <img src={png2} alt='sortImg'/>
+                </div> */}
+               <div className='sortBy'>
+                <section>
+                    <input type='radio' name='sortBy' data-filter='default' defaultChecked onChange={getFilterName}></input>
+                    <label htmlFor='default'>Relevance(Default)</label>
+                </section>
+
+                <section>
+                    <input type='radio' name='sortBy' data-filter='delivery' onChange={getFilterName}></input>
+                    <label htmlFor='delivery'>Delivery Time</label>
+                </section>
+
+                <section>
+                    <input type='radio' name='sortBy' onChange={getFilterName} data-filter='rating'></input>
+                    <label htmlFor='rating'>Rating</label>
+                </section>
+
+                <section>
+
+                    <input type='radio' name='sortBy' onChange={getFilterName} data-filter='costLtoH'></input>
+                    <label htmlFor='costLtoH'>Cost:LowtoHigh</label>
+                </section>
+
+                <section>
+
+                    <input type='radio' name='sortBy' onChange={getFilterName} data-filter='costHtoL'></input>
+                    <label htmlFor='costHtoL'>Cost:HightoLow</label>
+                </section>
+                <footer>
+                  <button>Apply</button>
+                </footer>
+            </div>
+                <div className='FastDelivery'>Fast Delivery</div>
+                <div className='NewOnSwiggy'>New on Swiggy</div>
+                <div className='Rating'>Rating 4.0+</div>
+                <div className='veg'>Pure Veg</div>
+                <div className='offers'>Offers</div>
+                <div className='lessThan'>Rs 300 - Rs 600</div>
+                <div className='lessThan'>Less than Rs 300</div>
+              </div>
+            </div>

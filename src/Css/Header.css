@@ -1,0 +1,85 @@
+@font-face {
+    font-family: ProximaNovaCondensedExtraBold;
+    src: url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Extrabld.woff2") format("woff2"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Extrabld.woff") format("woff"),url("https://media-assets.swiggy.com/dls-web-assets/dls/fonts/ProximaNovaCond-Extrabld.ttf") format("truetype");
+    font-style: normal
+}
+.header1{
+    height: 90px;
+    min-width: 1490px;
+    display: flex;
+    box-shadow: 0 10px 25px -15px rgba(118, 117, 117, 0.3);
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    align-items: center;
+    overflow: hidden;
+    z-index: 100000;
+    position: sticky;
+    background-color: white;
+    top: 0;
+}
+
+                                                        /* Swiggy logo */
+
+.swiggyLogo{
+    height: auto;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 180px;
+}
+.swiggyLogo img{
+    height: 45px;
+    width: 40px;
+    transition: all .1s linear;
+}
+.swiggyLogo img:hover{
+    height: 55px;
+    width: 45px;
+    cursor: pointer;
+}
+
+                                                     /* slideBar*/
+
+.slideBarBtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+.slideBarBtn span{
+    font-weight: 700;
+    border-bottom:2px solid black ;
+}
+
+.slideBarBtn span:hover{
+    border-bottom: 2px solid rgb(253 151 67);
+    color: rgb(253 151 67);
+}
+                                                        /* List Items */
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 17px;
+    gap: 75px;
+    margin-left: auto;
+    font-weight: 600;
+    margin-right: 135px;
+    color: rgba(70, 70, 70, 0.823);
+}
+ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+header ul li a{
+    text-decoration: none;
+    color: rgba(70, 70, 70, 0.823);
+}
+ul li:hover{
+    cursor: pointer;
+    color: rgb(253 151 67);
+}

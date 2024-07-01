@@ -1,0 +1,67 @@
+.mainContainer{
+  font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+.itemsContainer{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 10%;
+  height: 100%;
+  width: 100%;
+  min-width: 1490px;
+  overflow: hidden;
+}
+.headerMain{
+  position: sticky;
+  z-index:10000;
+   top: 0;
+}
+
+                                                                      /* sortingBox */
+.filterBoxheading {
+  height:60px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+.filterBoxheading h1{
+  padding-top: 15px;
+  padding-left: 10px;
+}
+.itemsContainer3SortBox{
+  min-width: 1490px;
+  min-height: 12%;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.header3Main{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  gap: 1%;
+}
+
+.header3Main div{
+border-radius:20px;
+border: 1px solid lightgray;
+text-align: center;
+padding: 9px 12px;
+font-size: 15px;
+color: rgba(2, 6, 12, 0.526);
+font-weight: 600;
+box-shadow: rgba(2, 6, 12, 0.04) 0px 2px 12px;
+display: flex;
+gap: 10px;
+cursor: pointer;
+}
+.itemsContainer3SortBox img{
+width: 15px;
+}
+.main4{
+  margin-top: -12px;
+  width: 80%;
+}
